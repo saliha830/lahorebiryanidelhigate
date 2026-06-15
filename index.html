@@ -626,7 +626,7 @@ function renderHist(){
   });
   var el=document.getElementById('histList');
   if(!orders.length){el.innerHTML='<div class="empty">No orders yet.<br>Your orders will appear here.</div>';return;}
-  var html='';
+  var html=''; 
   orders.forEach(function(o){
     var sc={pending:'st-p',confirmed:'st-c',delivered:'st-d'}[o.status]||'st-p';
     html+='<div class="hcard">'
@@ -638,7 +638,8 @@ function renderHist(){
     +'</div>';
   });
   el.innerHTML=html;
+  <p>phone numbers 03329990939 , 03084374717 </p>
 }
-</script> <p>phone numbers 03329990939 , 03084374717<\p>
+</script> 
 </body>
 </html>
